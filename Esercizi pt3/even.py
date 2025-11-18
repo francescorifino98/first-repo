@@ -1,6 +1,10 @@
 def even(n):
-    print (not(bool(n % 2)))
+    if n < 0:
+        print("Warning: input -1 is not positive")
+    else:
+        print (not(bool(n % 2)))
 
+even(-1)
 even(1)
 even(2)
 even(3)
