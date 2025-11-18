@@ -6,23 +6,4 @@ def numberBetween(end, start):
         i+=1
     print(list)
 
-    # if start < end:
-    #     i = start
-    #     while i<=end:
-    #         list.append(i)
-    #         i+=1
-    # else:
-    #     i = end
-    #     while i <=start:
-    #         list.append(i)
-    #         i+=1
-    # print(list)
-
-    # i = start
-    # while i <= end:
-    #       list.append(i)
-    #       i+=1
-    # print(list)
-
-
 numberBetween(25,12)
