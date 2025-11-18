@@ -6,4 +6,4 @@ def largest(a,b,c):
     else:
         print(c)
 
-largest (100, 1000, 2)
+largest (100, 240, 2)
